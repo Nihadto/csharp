@@ -1,0 +1,10 @@
+1️⃣ Import libraries → (SqlClient, Configuration, System.Data)
+2️⃣ Main method → Start of the program
+3️⃣ Read settings → Load appsettings.json
+4️⃣ Create connection → SqlConnection(connString)
+5️⃣ Write SQL → "SELECT * FROM Wallets WHERE id=1"
+6️⃣ Create command → new SqlCommand(sql, conn)
+7️⃣ Open connection → conn.Open()
+8️⃣ Execute & Read → ExecuteReader()
+9️⃣ Build object → Create Wallet and print
+🔟 Close connection → conn.Close()
